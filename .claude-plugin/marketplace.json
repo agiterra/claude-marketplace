@@ -1,0 +1,47 @@
+{
+  "name": "agiterra",
+  "owner": {
+    "name": "Tim Garthwaite",
+    "url": "https://github.com/mividtim"
+  },
+  "metadata": {
+    "description": "Agiterra plugins — persistent identity, inter-agent communication, dependency resolution"
+  },
+  "plugins": [
+    {
+      "name": "personai",
+      "source": { "source": "github", "repo": "agiterra/personai-claude-code" },
+      "description": "Persistent agent identity — hooks, skills, and boot sequence for agents that survive context compaction"
+    },
+    {
+      "name": "personai-tools",
+      "source": { "source": "github", "repo": "agiterra/personai-tools" },
+      "description": "Personai core — memory vault, journal, association search, semantic index"
+    },
+    {
+      "name": "exchange",
+      "source": { "source": "github", "repo": "agiterra/exchange-claude-code" },
+      "description": "Exchange inbound adapter — SSE connection and MCP channel notifications"
+    },
+    {
+      "name": "exchange-ipc",
+      "source": { "source": "github", "repo": "agiterra/exchange-ipc-claude-code" },
+      "description": "Exchange IPC — Ed25519 signed outbound messaging between agents"
+    },
+    {
+      "name": "exchange-tools",
+      "source": { "source": "github", "repo": "agiterra/exchange-tools" },
+      "description": "Exchange core — gateway client, message types, shared utilities"
+    },
+    {
+      "name": "exchange-ipc-tools",
+      "source": { "source": "github", "repo": "agiterra/exchange-ipc-tools" },
+      "description": "Exchange IPC core — Ed25519 signing, webhook validation"
+    },
+    {
+      "name": "deps",
+      "source": { "source": "github", "repo": "agiterra/deps" },
+      "description": "Plugin dependency resolution"
+    }
+  ]
+}
