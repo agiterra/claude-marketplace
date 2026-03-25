@@ -19,28 +19,28 @@
       "description": "Personai core — memory vault, journal, association search, semantic index"
     },
     {
-      "name": "exchange",
-      "source": { "source": "github", "repo": "agiterra/exchange-claude-code" },
-      "description": "Exchange inbound adapter — SSE connection and MCP channel notifications"
+      "name": "wire",
+      "source": { "source": "github", "repo": "agiterra/wire-claude-code" },
+      "description": "Wire inbound adapter — SSE connection and MCP channel notifications"
     },
     {
-      "name": "exchange-ipc",
-      "source": { "source": "github", "repo": "agiterra/exchange-ipc-claude-code" },
-      "description": "Exchange IPC — Ed25519 signed outbound messaging between agents"
+      "name": "wire-ipc",
+      "source": { "source": "github", "repo": "agiterra/wire-ipc-claude-code" },
+      "description": "Wire IPC — Ed25519 signed outbound messaging between agents"
     },
     {
-      "name": "exchange-tools",
-      "source": { "source": "github", "repo": "agiterra/exchange-tools" },
-      "description": "Exchange core — gateway client, message types, shared utilities"
+      "name": "wire-tools",
+      "source": { "source": "github", "repo": "agiterra/wire-tools" },
+      "description": "Wire core — gateway client, message types, shared utilities"
     },
     {
-      "name": "exchange-ipc-tools",
-      "source": { "source": "github", "repo": "agiterra/exchange-ipc-tools" },
-      "description": "Exchange IPC core — Ed25519 signing, webhook validation"
+      "name": "wire-ipc-tools",
+      "source": { "source": "github", "repo": "agiterra/wire-ipc-tools" },
+      "description": "Wire IPC core — Ed25519 signing, webhook validation"
     },
     {
-      "name": "deps",
-      "source": { "source": "github", "repo": "agiterra/deps" },
+      "name": "claude-code-deps",
+      "source": { "source": "github", "repo": "agiterra/claude-code-deps" },
       "description": "Plugin dependency resolution"
     }
   ]
