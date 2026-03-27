@@ -11,7 +11,8 @@
     {
       "name": "personai",
       "source": { "source": "github", "repo": "agiterra/personai-claude-code" },
-      "description": "Persistent agent identity — hooks, skills, and boot sequence for agents that survive context compaction"
+      "description": "Persistent agent identity — hooks, skills, and boot sequence for agents that survive context compaction",
+      "skills": ["./skills/"]
     },
     {
       "name": "personai-tools",
@@ -42,6 +43,16 @@
       "name": "claude-code-deps",
       "source": { "source": "github", "repo": "agiterra/claude-code-deps" },
       "description": "Plugin dependency resolution"
+    },
+    {
+      "name": "pane",
+      "source": { "source": "github", "repo": "agiterra/pane-claude-code" },
+      "description": "Pane orchestration — launch and manage agents in persistent screen sessions"
+    },
+    {
+      "name": "pane-tools",
+      "source": { "source": "github", "repo": "agiterra/pane-tools" },
+      "description": "Pane orchestration core — screen sessions, SQLite state, runtime registry, reconciler"
     }
   ]
 }
