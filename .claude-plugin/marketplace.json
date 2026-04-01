@@ -53,6 +53,16 @@
       "name": "pane-tools",
       "source": { "source": "github", "repo": "agiterra/pane-tools" },
       "description": "Pane orchestration core — screen sessions, SQLite state, runtime registry, reconciler"
+    },
+    {
+      "name": "github",
+      "source": { "source": "github", "repo": "agiterra/github-claude-code" },
+      "description": "GitHub webhook tools — register PR webhooks, manage lifecycle, HMAC validation"
+    },
+    {
+      "name": "github-tools",
+      "source": { "source": "github", "repo": "agiterra/github-tools" },
+      "description": "GitHub webhook core — pure functions for webhook registration, filters, cleanup"
     }
   ]
 }
