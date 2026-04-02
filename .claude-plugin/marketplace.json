@@ -45,14 +45,14 @@
       "description": "Plugin dependency resolution"
     },
     {
-      "name": "pane",
-      "source": { "source": "github", "repo": "agiterra/pane-claude-code" },
-      "description": "Pane orchestration — launch and manage agents in persistent screen sessions"
+      "name": "crew",
+      "source": { "source": "github", "repo": "agiterra/crew-claude-code" },
+      "description": "Crew orchestration — launch and manage agents in persistent screen sessions"
     },
     {
-      "name": "pane-tools",
-      "source": { "source": "github", "repo": "agiterra/pane-tools" },
-      "description": "Pane orchestration core — screen sessions, SQLite state, runtime registry, reconciler"
+      "name": "crew-tools",
+      "source": { "source": "github", "repo": "agiterra/crew-tools" },
+      "description": "Crew orchestration core — screen sessions, SQLite state, runtime registry, reconciler"
     },
     {
       "name": "github",
