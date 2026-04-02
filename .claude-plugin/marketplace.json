@@ -40,11 +40,6 @@
       "description": "Wire IPC core — Ed25519 signing, webhook validation"
     },
     {
-      "name": "claude-code-deps",
-      "source": { "source": "github", "repo": "agiterra/claude-code-deps" },
-      "description": "Plugin dependency resolution"
-    },
-    {
       "name": "crew",
       "source": { "source": "github", "repo": "agiterra/crew-claude-code" },
       "description": "Crew orchestration — launch and manage agents in persistent screen sessions"
