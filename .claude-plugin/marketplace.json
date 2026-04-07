@@ -9,17 +9,6 @@
   },
   "plugins": [
     {
-      "name": "personai",
-      "source": { "source": "github", "repo": "agiterra/personai-claude-code" },
-      "description": "Persistent agent identity — hooks, skills, and boot sequence for agents that survive context compaction",
-      "skills": ["./skills/"]
-    },
-    {
-      "name": "personai-tools",
-      "source": { "source": "github", "repo": "agiterra/personai-tools" },
-      "description": "Personai core — memory vault, journal, association search, semantic index"
-    },
-    {
       "name": "wire",
       "source": { "source": "github", "repo": "agiterra/wire-claude-code" },
       "description": "Wire inbound adapter — SSE connection and MCP channel notifications"
@@ -30,24 +19,9 @@
       "description": "Wire IPC — Ed25519 signed outbound messaging between agents"
     },
     {
-      "name": "wire-tools",
-      "source": { "source": "github", "repo": "agiterra/wire-tools" },
-      "description": "Wire core — gateway client, message types, shared utilities"
-    },
-    {
-      "name": "wire-ipc-tools",
-      "source": { "source": "github", "repo": "agiterra/wire-ipc-tools" },
-      "description": "Wire IPC core — Ed25519 signing, webhook validation"
-    },
-    {
       "name": "crew",
       "source": { "source": "github", "repo": "agiterra/crew-claude-code" },
       "description": "Crew orchestration — launch and manage agents in persistent screen sessions"
-    },
-    {
-      "name": "crew-tools",
-      "source": { "source": "github", "repo": "agiterra/crew-tools" },
-      "description": "Crew orchestration core — screen sessions, SQLite state, runtime registry, reconciler"
     },
     {
       "name": "github",
@@ -55,9 +29,9 @@
       "description": "GitHub webhook tools — register PR webhooks, manage lifecycle, HMAC validation"
     },
     {
-      "name": "github-tools",
-      "source": { "source": "github", "repo": "agiterra/github-tools" },
-      "description": "GitHub webhook core — pure functions for webhook registration, filters, cleanup"
+      "name": "knowledge",
+      "source": { "source": "github", "repo": "agiterra/knowledge-claude-code" },
+      "description": "Knowledge vault runtime — journal, search, enrichment, compaction for .knowledge/ directories"
     }
   ]
 }
