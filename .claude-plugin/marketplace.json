@@ -32,6 +32,11 @@
       "name": "knowledge",
       "source": { "source": "github", "repo": "agiterra/knowledge-claude-code" },
       "description": "Knowledge vault runtime — journal, search, enrichment, compaction for .knowledge/ directories"
+    },
+    {
+      "name": "knowledge-indexer",
+      "source": { "source": "github", "repo": "agiterra/knowledge-indexer-claude-code" },
+      "description": "Auto-indexes knowledge vault files on write — Haiku sidecar for keywords + vectors"
     }
   ]
 }
