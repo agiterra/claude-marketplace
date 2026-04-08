@@ -37,6 +37,11 @@
       "name": "knowledge-indexer",
       "source": { "source": "github", "repo": "agiterra/knowledge-indexer-claude-code" },
       "description": "Auto-indexes knowledge vault files on write — Haiku sidecar for keywords + vectors"
+    },
+    {
+      "name": "operator-relay",
+      "source": { "source": "github", "repo": "agiterra/operator-relay-claude-code" },
+      "description": "Forwards operator prompts on ephemeral agents to managing agents via Wire"
     }
   ]
 }
