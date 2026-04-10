@@ -42,6 +42,11 @@
       "name": "operator-relay",
       "source": { "source": "github", "repo": "agiterra/operator-relay-claude-code" },
       "description": "Forwards operator prompts on ephemeral agents to managing agents via Wire"
+    },
+    {
+      "name": "crew-themes",
+      "source": { "source": "github", "repo": "agiterra/crew-themes" },
+      "description": "Pane background themes for Crew — 6 bundled themes plus tools to author your own. SUPER EASY."
     }
   ]
 }
