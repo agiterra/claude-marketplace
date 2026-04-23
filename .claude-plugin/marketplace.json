@@ -47,6 +47,11 @@
       "name": "crew-themes",
       "source": { "source": "github", "repo": "agiterra/crew-themes" },
       "description": "Pane background themes for Crew — 6 bundled themes plus tools to author your own. SUPER EASY."
+    },
+    {
+      "name": "crew-fleet",
+      "source": { "source": "github", "repo": "agiterra/crew-fleet-claude-code" },
+      "description": "Cross-machine crew orchestration — SSH fan-out over the machines registry for fleet-level agent queries."
     }
   ]
 }
