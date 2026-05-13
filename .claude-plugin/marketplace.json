@@ -52,6 +52,11 @@
       "name": "crew-fleet",
       "source": { "source": "github", "repo": "agiterra/crew-fleet-claude-code" },
       "description": "Cross-machine crew orchestration — SSH fan-out over the machines registry for fleet-level agent queries."
+    },
+    {
+      "name": "wallet-claude-code",
+      "source": { "source": "github", "repo": "agiterra/wallet-claude-code" },
+      "description": "Wallet decider MCP tools — approve / refuse / reject_with_error sign requests from the wallet-vault Wire integration."
     }
   ]
 }
