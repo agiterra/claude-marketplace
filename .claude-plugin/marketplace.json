@@ -56,7 +56,7 @@
     {
       "name": "wallet-claude-code",
       "source": { "source": "github", "repo": "agiterra/wallet-claude-code" },
-      "description": "Wallet decider MCP tools — approve / refuse / reject_with_error sign requests from the wallet-vault Wire integration."
+      "description": "Wallet MCP tools — sign decisions (approve / refuse / reject_with_error) + vault management (wallet_list / wallet_use + operator-gated grant / revoke / set_access_mode)."
     }
   ]
 }
