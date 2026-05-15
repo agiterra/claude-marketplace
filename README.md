@@ -1,6 +1,6 @@
 # agiterra — Claude Code plugin marketplace
 
-This repo is the plugin marketplace registry for the Agiterra Toolkit on Claude Code. To install:
+This repo is the plugin marketplace registry for the Agiterra Multi-Agent Toolkit on Claude Code. To install:
 
 ```
 /plugin marketplace add agiterra/claude-marketplace
@@ -19,7 +19,7 @@ This repo only contains the marketplace JSON. To learn what the Toolkit is, how 
 
 If you have a Claude Code agent open, the fastest path is:
 
-> "Install the Agiterra marketplace and set up the minimum-useful Agiterra Toolkit on my machine."
+> "Install the Agiterra marketplace and set up the minimum-useful Agiterra Multi-Agent Toolkit on my machine."
 
 Your agent should follow [handbook/SETUP-CLAUDE-CODE.md](https://github.com/agiterra/handbook/blob/main/SETUP-CLAUDE-CODE.md) and ask only what it genuinely needs.
 
