@@ -11,7 +11,7 @@
     {
       "name": "wire",
       "source": { "source": "github", "repo": "agiterra/wire-claude-code" },
-      "description": "Wire inbound adapter — SSE connection and MCP channel notifications"
+      "description": "Wire client — SSE inbound, agent registration (register_agent), heartbeats, plan publishing"
     },
     {
       "name": "wire-ipc",
