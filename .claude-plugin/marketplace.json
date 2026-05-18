@@ -57,6 +57,11 @@
       "name": "wallet-claude-code",
       "source": { "source": "github", "repo": "agiterra/wallet-claude-code" },
       "description": "Wallet MCP tools — sign decisions (approve / refuse / reject_with_error) + vault management (wallet_list / wallet_use + operator-gated grant / revoke / set_access_mode)."
+    },
+    {
+      "name": "bridge",
+      "source": { "source": "github", "repo": "agiterra/bridge-claude-code" },
+      "description": "Orchestrator's plugin — collapses the 6-step spawn dance (wire register → env-map → crew launch → pane create → attach → IPC kickoff) into one MCP call. Composes with bridge-X integration plugins (bridge-github, bridge-linear, etc.) via the BridgeHook contract."
     }
   ]
 }
