@@ -62,6 +62,11 @@
       "name": "bridge",
       "source": { "source": "github", "repo": "agiterra/bridge-claude-code" },
       "description": "Orchestrator's plugin — collapses the 6-step spawn dance (wire register → env-map → crew launch → pane create → attach → IPC kickoff) into one MCP call. Composes with bridge-X integration plugins (bridge-github, bridge-linear, etc.) via the BridgeHook contract."
+    },
+    {
+      "name": "slack",
+      "source": { "source": "github", "repo": "agiterra/slack-claude-code" },
+      "description": "Slack plugin — per-persona Slack app drinks the workspace firehose; agent-side filter for noise. Uses wire v1.13's responder hook for the url_verification handshake."
     }
   ]
 }
